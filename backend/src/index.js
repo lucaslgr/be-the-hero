@@ -32,13 +32,16 @@
 */
 
 const express = require('express'); //Importando modulo express para lidar com rotas
+const {errors} = require('celebrate'); //Importando pacote de error para tratar os error lançados na validação de dados feita pelo celebrate 
 const routes = require('./routes'); //Importando as routes configuradas
 const cors = require('cors'); //Importando modulo de segurança CORS
+
 const app = express();
 
 app.use(cors());
 //Informando para o Express que ele poderá receber respostas das resquisições no formato json
 app.use(express.json());
 app.use(routes);
+app.use(errors());
 
 app.listen(3333);
