@@ -23,7 +23,15 @@ const routes = express.Router();
  * -> A validação no celebrate é feita indicando onde estão na requisição os dados que devem ser validados, se estou na QUERY, HEADERS, BODY, PARAMS ou COOKIES da requisição, que são os Segments do celebrate
 */
 
-routes.post('/sessions', SessionController.login);
+routes.post(
+    '/sessions',
+    celebrate({
+        [Segments.BODY]: Joi.object().keys({
+            ong_id : Joi.string().required().length(8),
+        })
+    }),
+    SessionController.login
+);
 
 routes.get('/ongs', OngController.getAll);
 
@@ -33,7 +41,7 @@ routes.post(
         [Segments.BODY]: Joi.object().keys({
             name: Joi.string().required(),
             email: Joi.string().required().email(),
-            whatsapp: Joi.number().required().min(10).max(11),
+            whatsapp: Joi.string().required().min(10).max(11),
             city: Joi.string().required(),
             uf: Joi.string().required().length(2),
         })
@@ -72,7 +80,8 @@ routes.post(
             authorization: Joi.string().required(),
         }).unknown()
     }),
-    IncidentsController.create);
+    IncidentsController.create
+);
 
 routes.delete(
     '/incidents/:id',
@@ -81,6 +90,7 @@ routes.delete(
             id: Joi.number().required(),
         })
     }),
-    IncidentsController.delete);
+    IncidentsController.delete
+);
 
 module.exports = routes;

@@ -1,6 +1,5 @@
+const generateUniqueId = require('../utils/generateUniqueId');
 const connection = require('../database/connection'); //Arquivo que faz a conexão com banco de dados
-const crypto = require('crypto'); //Módulo para gerar hash code de ID aleatório para ONG
-
 
 module.exports = {
     //Action list
@@ -15,7 +14,7 @@ module.exports = {
         const {name, email, whatsapp, city, uf} = request.body;
     
         //Gerando um ID para a ong
-        const id = crypto.randomBytes(4).toString('HEX'); //4 bytes de caracteres hexadecimais
+        const id = generateUniqueId(); //4 bytes de caracteres hexadecimais
 
         //Salvando no BD
         await connection('ongs').insert({
