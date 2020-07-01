@@ -1,4 +1,4 @@
-<a href="./LICENSE"></a>
+<a href="./LICENSE">https://img.shields.io/badge/license-MIT-green</a>
 
 # PROJETO BE-THE-HERO
 
@@ -23,7 +23,7 @@
 
 <b>- Link para vídeo de demonstração:</b> 
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6649410601527373824" height="681" width="504" frameborder="0" allowfullscreen="" title="Publicação incorporada"></iframe>
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6649410601527373824)
 
 ## ⚙ Features
 
@@ -32,8 +32,6 @@
 - [x] FRONT-END mobile e desktop
 
 - [x] BACK-END em padrão API RESTful
-
-- [ ] 
 
 ## :clipboard: Instruções para rodar o projeto
 
@@ -92,7 +90,7 @@ $ npm start ou yarn start
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/ialexanderbrito/be-the-hero
+$ git clone https://github.com/lucaslgr/be-the-hero
 
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd be-the-hero
@@ -106,12 +104,9 @@ $ npm install ou yarn add
 # Execute a aplicação
 $ expo start
 ```
-
 ## :flower_playing_cards: Imagens do Projeto
 
-![Imagem do projeto](https://github.com/querocriarsite/coronavirus/blob/master/screenshot/Screenshot1.jpg)
-
-
+![Imagem do projeto](https://github.com/lucaslgr/be-the-hero/blob/master/screenshot/be-the-hero-1.png)
 
 ### :recycle: Como contribuir
 
