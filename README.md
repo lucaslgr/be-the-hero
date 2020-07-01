@@ -23,7 +23,7 @@
 
 <b>- Link para vídeo de demonstração:</b> 
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6649410601527373824)
+[![Publicação Linkedin]](https://www.linkedin.com/posts/lucas-guimar%C3%A3es-rocha-a30282132_semanaomnistack11-rocketseat-semanaomnistack-activity-6649410671568044032--S4M)
 
 ## ⚙ Features
 
