@@ -1,4 +1,4 @@
-<a href="./LICENSE">https://img.shields.io/badge/license-MIT-green</a>
+<a href="./LICENSE">[!GitHub](https://img.shields.io/badge/license-MIT-green)</a>
 
 # PROJETO BE-THE-HERO
 
@@ -23,7 +23,7 @@
 
 <b>- Link para vídeo de demonstração:</b> 
 
-[![Publicação Linkedin]](https://www.linkedin.com/posts/lucas-guimar%C3%A3es-rocha-a30282132_semanaomnistack11-rocketseat-semanaomnistack-activity-6649410671568044032--S4M)
+[[Publicação no Linkedin]](https://www.linkedin.com/posts/lucas-guimar%C3%A3es-rocha-a30282132_semanaomnistack11-rocketseat-semanaomnistack-activity-6649410671568044032--S4M)
 
 ## ⚙ Features
 
@@ -42,13 +42,13 @@
 <li>[Git](https://git-scm.com)</li>
 <li>[Node.js](https://nodejs.org/en/)</li>
 <li>[Expo](https://expo.io)</li>
-<li>E também será preciso um editor, eu indico o <b>[VSCode](https://code.visualstudio.com/)</li>
+<li>Caso não tenha, instle um editor, eu indico o <b>[VSCode](https://code.visualstudio.com/)</li>
 
 ### Instalando e rodando o back-end:
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/ialexanderbrito/be-the-hero
+$ git clone https://github.com/lucaslgr/be-the-hero
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd be-the-hero
@@ -69,7 +69,7 @@ $ npm run dev ou yarn dev
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/ialexanderbrito/be-the-hero
+$ git clone https://github.com/lucaslgr/be-the-hero
 
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd be-the-hero
