@@ -4,10 +4,10 @@
 
 ### :rocket: Tecnologias utilizadas
 
-<li>Node.js</li>
+<li>NodeJS</li>
+<li>ReactJS</li>
+<li>ReactNative</li>
 <li>Expo</li>
-<li>Express</li>
-<li>React</li>
 
 ## :books: Bibliotecas utilizadas
 
