@@ -2,7 +2,7 @@
 
 # PROJETO BE-THE-HERO
 
-### :rocket: Tecnologias utilizadas
+## :rocket: Tecnologias utilizadas
 
 <li>NodeJS</li>
 <li>ReactJS</li>
