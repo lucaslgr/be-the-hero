@@ -1,4 +1,4 @@
-<a href="./LICENSE">[!GitHub](https://img.shields.io/badge/license-MIT-green)</a>
+<a href="./LICENSE">![GitHub](https://img.shields.io/badge/license-MIT-green)</a>
 
 # PROJETO BE-THE-HERO
 
@@ -108,7 +108,7 @@ $ expo start
 
 ![Imagem do projeto](https://github.com/lucaslgr/be-the-hero/blob/master/screenshot/be-the-hero-1.png)
 
-### :recycle: Como contribuir
+## :recycle: Como contribuir
 
 - Fork esse repositório;
 - Crie uma branch com a sua feature: `git checkout -b my-feature`
